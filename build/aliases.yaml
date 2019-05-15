@@ -20,10 +20,6 @@ default:
   - 'htmlmin'
   - 'connect:livereload'
   - 'watch'
-
-serve:
-  - 'connect:livereload'
-  - 'watch'
   
 deploy:
   - 'buildcontrol' 
