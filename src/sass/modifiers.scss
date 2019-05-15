@@ -1,0 +1,99 @@
+.center-text {
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font-xs {
+    font-size: 1rem;
+}
+
+.font-sm {
+    font-size: 1.1rem;
+}
+
+.ft-200 {
+    font-weight: 200;
+}
+
+.ft-300 {
+    font-weight: 300;
+}
+
+.ft-400 {
+    font-weight: 400;
+}
+
+.ft-500 {
+    font-weight: 500;
+}
+
+.ft-600 {
+    font-weight: 600;
+}
+
+.ft-700 {
+    font-weight: 700;
+}
+
+.title-sm {
+    font-size: 2.2rem;
+}
+
+.title-md {
+    font-size: 2.8rem;
+}
+
+.spacing-md {
+    letter-spacing: 2px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.ft-primary {
+    font-family: $primary-font;
+}
+
+.ft-heading {
+    font-family: $heading-font;
+}
+
+ul.blank {
+    margin: 1rem 0;
+    padding: 0;
+}
+
+ul.blank li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title {
+    margin-top: 100px;
+}
+
+.spacer-md {
+    display: block;
+    height: 40px;
+}
+
+.md-hidden {
+    @media only screen and (max-width: 990px) {
+        .villa-avail-cal {
+            display: none !important;
+            visibility: hidden !important;
+        }
+        .md-centered {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

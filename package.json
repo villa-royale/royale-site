@@ -1,0 +1,48 @@
+{
+  "name": "villaroyale",
+  "version": "1.0.0",
+  "description": "Coral Bay Villa Royale",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sash-D/royale-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sash-D/royale-site/issues"
+  },
+  "homepage": "https://github.com/Sash-D/royale-site#readme",
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.3",
+    "grunt-build-control": "^0.7.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-image": "^4.3.0",
+    "grunt-includes": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.0.1",
+    "grunt-stylelint": "^0.10.1",
+    "grunt-svgmin": "^5.0.0",
+    "load-grunt-config": "^1.0.2",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "^4.9.3",
+    "stylelint": "^9.5.0",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "ajv": "^6.5.3",
+    "imagemin-mozjpeg": "^8.0.0",
+    "lodash": "^4.17.10",
+    "tunnel-agent": "^0.6.0"
+  }
+}
