@@ -8,7 +8,7 @@ module.exports = function (grunt) {
         },
         pages: {
           options: {
-            remote: 'git@github.com:Sash-D/royale-site.git',
+            remote: 'git@github.com:Draxs/royale-site.git',
             branch: 'gh-pages'
           }
         },
