@@ -1699,6 +1699,13 @@ form p {
   min-height: 600px;
   position: relative; }
 
+.home-video {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
 .stars img {
   width: 20px;
   display: inline;
@@ -1707,11 +1714,11 @@ form p {
 .villa-header {
   width: 100%;
   /* for IE 6 */
-  background: url("/assets/static/1.jpg") no-repeat;
+  background: url("/assets/static/villa-royale-1.jpg") no-repeat;
   background-size: cover;
   padding: 40px 20px;
   background-position: center;
-  min-height: 450px;
+  min-height: 650px;
   position: relative; }
 
 .villa-avail-cal {
