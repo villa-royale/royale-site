@@ -127,3 +127,18 @@
     padding: 20px;
     background-position: center;
 }
+
+@media only screen and (max-width: 990px) {
+    .extras-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .extras-grid {
+        grid-template-columns: 1fr;
+    }
+    .extras-col {
+        min-height: 300px;
+    }
+}

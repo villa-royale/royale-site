@@ -1,7 +1,7 @@
 module.exports = {
     pages: {
         files: [
-            { expand: true, cwd: 'src/',  src: ['**/*.html', 'CNAME', '*.txt', '*.xml', '*.htm', 'assets/css/*.css'],                           dest: 'dist' },
+            { expand: true, cwd: 'src/',  src: ['**/*.html', '*CNAME', '*.txt', '*.xml', '*.htm', 'assets/css/*.css'],                           dest: 'dist' },
         ],
     },
     static: {

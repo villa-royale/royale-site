@@ -72,6 +72,7 @@
 .button-clear, a .button-clear {
     background-color: transparent;
     color: $primary-text-color;
+    padding: 1rem 1.8rem;
 
     &:hover {
         color: $primary-color;
