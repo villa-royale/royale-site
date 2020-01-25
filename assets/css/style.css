@@ -1426,6 +1426,25 @@ img {
     align-self: stretch !important; } }
 
 /* stylelint-enable number-max-precision */
+.grid {
+  display: grid; }
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr); }
+
+.grid-col {
+  border: 1px solid #cccccc;
+  padding: 20px; }
+
+.grid-col-gap-md {
+  grid-column-gap: 20px; }
+
+.extras-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px; }
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -1721,6 +1740,16 @@ form p {
   min-height: 650px;
   position: relative; }
 
+.extras-header {
+  width: 100%;
+  /* for IE 6 */
+  background: url("/assets/static/extras-1.jpg") no-repeat;
+  background-size: cover;
+  padding: 40px 20px;
+  background-position: center;
+  min-height: 450px;
+  position: relative; }
+
 .villa-avail-cal {
   margin-left: auto;
   margin-right: auto; }
@@ -1793,6 +1822,118 @@ form p {
     display: none !important; }
   .book-cta {
     display: block; } }
+
+.extras-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px; }
+
+.extras-col {
+  border: 1px solid #cccccc;
+  padding: 20px;
+  position: relative;
+  min-height: 200px; }
+
+.extras-col h6 {
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
+
+.airport-transfers {
+  background: url("/assets/images/airport-transfer-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.car-hire {
+  background: url("/assets/images/car-hire-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.taxi {
+  background: url("/assets/images/taxi-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.boat-trips {
+  background: url("/assets/images/boat-trips-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.yachting {
+  background: url("/assets/images/yacht-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.local-tours {
+  background: url("/assets/images/tours-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.quad-safari {
+  background: url("/assets/images/quad-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.golf {
+  background: url("/assets/images/golf-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.gym {
+  background: url("/assets/images/gym-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.equipment-hire {
+  background: url("/assets/images/equipment-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.private-catering {
+  background: url("/assets/images/catering-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.wine-tours {
+  background: url("/assets/images/wine-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.beauty {
+  background: url("/assets/images/beauty-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.spa {
+  background: url("/assets/images/spa-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+
+.wedding {
+  background: url("/assets/images/wedding-sm.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
 
 .shadow-sm {
   -webkit-box-shadow: 0 0.12rem 0.25rem rgba(0, 0, 0, 0.75);
