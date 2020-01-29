@@ -1451,12 +1451,17 @@ img {
 
 html {
   font-family: sans-serif;
-  line-height: 1.15;
+  line-height: 1.25;
   font-size: 62.5%;
-  -webkit-text-size-adjust: 62.5%;
-  -ms-text-size-adjust: 62.5%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 75.5%;
+    /* 1rem = 12px */ } }
 
 @-ms-viewport {
   width: device-width; }
@@ -1468,11 +1473,10 @@ body {
   margin: 0;
   text-align: left;
   font-family: montserrat, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.6rem;
   font-weight: 400;
-  color: #63584b;
+  color: #222222;
   letter-spacing: 0.01em;
-  line-height: 1.6;
   background-color: #ffffff; }
 
 [tabindex='-1']:focus {
