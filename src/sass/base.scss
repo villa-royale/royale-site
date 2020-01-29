@@ -4,12 +4,18 @@
 
 html {
     font-family: sans-serif;
-    line-height: 1.15;
+    line-height: 1.25;
     font-size: 62.5%;
-    -webkit-text-size-adjust: 62.5%;
-    -ms-text-size-adjust: 62.5%;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media only screen and (min-width: 1920px) {
+    html {
+        font-size: 75.5%; /* 1rem = 12px */
+    }
 }
 
 @-ms-viewport {
@@ -24,11 +30,10 @@ body {
     margin: 0;
     text-align: left;
     font-family: $primary-font;
-    font-size: 1.5em; // Currently ems cause chrome bug misinterpreting rems on body element
+    font-size: 1.6rem; // Currently ems cause chrome bug misinterpreting rems on body element
     font-weight: 400;
-    color: $primary-text-color;
+    color: $base-text-color;
     letter-spacing: 0.01em;
-    line-height: 1.6;
     background-color: #ffffff;
 }
 
