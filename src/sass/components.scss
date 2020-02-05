@@ -65,6 +65,16 @@
     position: relative;
 }
 
+.bookings-header {
+    width: 100%; /* for IE 6 */
+    background: url('/assets/static/villa-royale10-w1920.jpg') no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+    background-position: center;
+    min-height: 450px;
+    position: relative;
+}
+
 .villa-avail-cal {
     margin-left: auto;
     margin-right: auto;
