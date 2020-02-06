@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col {
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+.grid-col-gap-md {
+    grid-column-gap: 20px;
+}
+
+.extras-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
